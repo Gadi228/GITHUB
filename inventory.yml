@@ -1,0 +1,32 @@
+all:
+  hosts:
+    ansible1:
+      ansible_user: ansible
+      ansible_ssh_pass: ansible
+      ansible_host: 192.168.1.144
+
+    ansible2:
+      ansible_user: ansible
+      ansible_ssh_pass: ansible
+      ansible_host: 192.168.1.145
+
+    ansible3:
+      ansible_user: ansible
+      ansible_ssh_pass: ansible
+      ansible_host: 192.168.1.109
+
+  vars:
+    DB_REPL_HOST: 192.168.1.145
+    DB_REPL_USER: repl_user
+    DB_REPL_PASSWORD: repl_pass
+    DB_REPL_PORT: 5432
+    DB_HOST: 192.168.1.144
+    DB_PORT: 5432
+    DB_USER: postgres
+    DB_PASSWORD: db_pass
+    DB_DATABASE: mails
+    TOKEN: 7124901154:AAEoNE370KiQE8uo9JAR1G2H3eQTt3n-95E
+    RM_HOST: 192.168.1.140
+    RM_PORT: 22
+    RM_USER: gadjimurad
+    RM_PASSWORD: 1
